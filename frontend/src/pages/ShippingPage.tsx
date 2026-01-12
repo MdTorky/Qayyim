@@ -13,7 +13,7 @@ import { MapPin, Plus } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const ShippingPage = () => {
-    const { cartItems, shippingAddress, saveShippingAddress } = useCart();
+    const { shippingAddress, saveShippingAddress } = useCart();
     const { user } = useAuth();
     const { t, language } = useLanguage();
     const navigate = useNavigate();

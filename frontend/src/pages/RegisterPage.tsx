@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import api from '../utils/api';
 import PageTransition from "@/components/animations/PageTransition";
 import { motion } from "framer-motion";
-import { Loader2, ArrowRight, UserPlus } from "lucide-react";
+import { Loader2, UserPlus } from "lucide-react";
 
 const RegisterPage: React.FC = () => {
     const { t, language } = useLanguage();

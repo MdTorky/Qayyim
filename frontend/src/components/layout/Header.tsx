@@ -15,7 +15,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header: React.FC = () => {
@@ -114,7 +114,7 @@ const Header: React.FC = () => {
                 {/* Mobile Menu Links */}
                 <div className="flex-1 overflow-y-auto py-4">
                   <nav className="flex flex-col">
-                    {navLinks.map((link, index) => (
+                    {navLinks.map((link) => (
                       <Link
                         key={link.href}
                         to={link.href}

@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import PageTransition from "@/components/animations/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Trash2, Minus, Plus, ShoppingBag, ArrowRight, Truck } from "lucide-react";
+import { Trash2, Minus, Plus, ShoppingBag, ArrowRight } from "lucide-react";
 
 const CartPage = () => {
     const { cartItems, removeFromCart, addToCart } = useCart();
@@ -15,8 +15,6 @@ const CartPage = () => {
 
     const total = cartItems.reduce((acc, item) => acc + item.price * item.qty, 0);
     const freeShippingThreshold = 2000; // Example threshold
-    const progress = Math.min((total / freeShippingThreshold) * 100, 100);
-    const remainingForFreeShipping = freeShippingThreshold - total;
 
     const checkoutHandler = () => {
         if (!user) {

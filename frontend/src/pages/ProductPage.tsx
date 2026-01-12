@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Heart, ShoppingBag, Minus, Plus, ChevronLeft, ChevronRight, Check } from "lucide-react";
+import { Heart, ShoppingBag, Minus, Plus, ChevronLeft, ChevronRight } from "lucide-react";
 // import Layout from "@/components/layout/Layout";
 import ProductGrid from "@/components/products/ProductGrid";
 import { useLanguage } from "@/context/LanguageContext";

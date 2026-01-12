@@ -1,8 +1,6 @@
 import Hero from '../components/home/Hero';
-import NewArrivals from '../components/home/NewArrivals';
 import FeaturedProducts from '../components/home/FeaturedProducts';
 import Categories from '../components/home/Categories';
-import PromoSection from '../components/home/PromoSection';
 import { motion } from 'framer-motion';
 import type { ReactNode } from 'react';
 

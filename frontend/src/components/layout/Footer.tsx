@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Instagram } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 const Footer: React.FC = () => {

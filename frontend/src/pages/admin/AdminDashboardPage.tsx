@@ -4,7 +4,7 @@ import api from '../../utils/api';
 import PageTransition from "@/components/animations/PageTransition";
 import AdminLayout from '@/components/layout/AdminLayout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Package, Users, ShoppingCart, TrendingUp, DollarSign, Calendar, ArrowUpRight, Box } from "lucide-react";
+import { Package, Users, ShoppingCart, DollarSign, Calendar, ArrowUpRight, Box } from "lucide-react";
 import { Button } from '@/components/ui/button';
 // import { Separator } from '@/components/ui/separator';
 // import {

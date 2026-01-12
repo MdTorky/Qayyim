@@ -4,12 +4,12 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useAuth } from "@/context/AuthContext";
 // import { useToast } from "@/hooks/use-toast";
 import api from '../utils/api';
-import PageTransition from "@/components/animations/PageTransition";
+import pageTransition from "@/components/animations/PageTransition";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Check, Truck, CreditCard, Package } from "lucide-react";
 import { cn } from "@/lib/utils";
+import PageTransition from '@/components/animations/PageTransition';
 
 const OrderPage = () => {
     const { id } = useParams();

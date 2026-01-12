@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useLanguage } from '@/context/LanguageContext';
 import { Check } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -13,7 +12,7 @@ interface CheckoutStepsProps {
 }
 
 const CheckoutSteps: React.FC<CheckoutStepsProps> = ({ currentStep }) => {
-    const { t, language } = useLanguage();
+    const { language } = useLanguage();
 
     const steps = [
         { step: 1, label: language === 'ar' ? 'تسجيل الدخول' : 'Sign In', path: '/login' },
@@ -32,7 +31,7 @@ const CheckoutSteps: React.FC<CheckoutStepsProps> = ({ currentStep }) => {
                     style={{ width: `${((currentStep - 1) / (steps.length - 1)) * 100}%` }}
                 />
 
-                {steps.map((s, index) => {
+                {steps.map((s) => {
                     const isCompleted = currentStep > s.step;
                     const isCurrent = currentStep === s.step;
 

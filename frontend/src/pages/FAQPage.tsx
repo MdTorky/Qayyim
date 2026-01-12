@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import {
     Accordion,
@@ -9,7 +8,7 @@ import {
 import PageTransition from '@/components/animations/PageTransition';
 
 const FAQPage = () => {
-    const { t, language } = useLanguage();
+    const { t } = useLanguage();
 
     const faqs = [
         {
