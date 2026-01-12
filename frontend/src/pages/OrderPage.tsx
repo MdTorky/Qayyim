@@ -4,7 +4,6 @@ import { useLanguage } from '@/context/LanguageContext';
 import { useAuth } from "@/context/AuthContext";
 // import { useToast } from "@/hooks/use-toast";
 import api from '../utils/api';
-import pageTransition from "@/components/animations/PageTransition";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Check, Truck, CreditCard, Package } from "lucide-react";
