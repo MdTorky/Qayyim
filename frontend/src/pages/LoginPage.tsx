@@ -70,8 +70,8 @@ const LoginPage: React.FC = () => {
                             </h2>
                             <p className="text-lg text-gray-300 max-w-md">
                                 {language === "ar"
-                                    ? "متجر قيم، بوابتك لكل ما هو مميز"
-                                    : "Qayyim Store, your gateway to everything special."}
+                                    ? "في متجر قيم، كل قطعة تحكي قصة عن الإيمان، والقوة، والغاية"
+                                    : "In Qayyim Store, Every piece tells a story — of faith, strength, and purpose."}
                             </p>
                         </motion.div>
                     </div>

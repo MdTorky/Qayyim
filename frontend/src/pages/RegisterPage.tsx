@@ -67,7 +67,7 @@ const RegisterPage: React.FC = () => {
                 {/* Left Side - Visual */}
                 <div className="hidden lg:block relative bg-black order-last lg:order-first">
                     <img
-                        src="https://images.unsplash.com/photo-1549488344-c73885ebbc52?q=80&w=1587&auto=format&fit=crop"
+                        src="https://plus.unsplash.com/premium_photo-1679056833362-f6e9b53774c1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Join us"
                         className="absolute inset-0 w-full h-full object-cover opacity-60"
                     />
@@ -83,8 +83,8 @@ const RegisterPage: React.FC = () => {
                             </h2>
                             <p className="text-lg text-gray-300 max-w-md">
                                 {language === "ar"
-                                    ? "أنشئ حسابك وابدأ تجربة تسوق فريدة"
-                                    : "Create your account and start your unique shopping journey."}
+                                    ? "نصمم أزياء مستوحاة من القادة المسلمين والقيم الخالدة، والكلمات التي شكّلت أجيالًا"
+                                    : "We design clothing inspired by Islamic leaders, timeless values, and words that shaped generations."}
                             </p>
                         </motion.div>
                     </div>

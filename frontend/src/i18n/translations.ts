@@ -143,7 +143,7 @@ export const translations = {
       subscribeText: "Subscribe to get special offers and updates",
       subscribe: "Subscribe",
       emailPlaceholder: "Enter your email",
-      copyright: "© 2024 QAYYIM. All rights reserved.",
+      copyright: "© 2026 QAYYIM. All rights reserved.",
     },
     // FAQ
     faq: {
@@ -364,7 +364,7 @@ export const translations = {
       subscribeText: "اشترك للحصول على العروض والتحديثات",
       subscribe: "اشترك",
       emailPlaceholder: "أدخل بريدك الإلكتروني",
-      copyright: "© 2024 قيّم. جميع الحقوق محفوظة.",
+      copyright: "© 2026 قيّم. جميع الحقوق محفوظة.",
     },
     // FAQ
     faq: {
